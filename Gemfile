@@ -41,6 +41,9 @@ group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem "ed25519", "~> 1.2"
+gem "bcrypt_pbkdf", "~> 1.1"
+
 group :development do
   gem "capistrano", "3.13", require: false
   gem "capistrano-bundler", require: false
