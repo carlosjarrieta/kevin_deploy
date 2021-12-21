@@ -3,7 +3,7 @@ lock "~> 3.13.0"
 
 set :application, "kevin-deploy"
 set :scm, :git
-set :repo_url, "ssh://git@github.com:carlosjarrieta/kevin_deploy.git"
+set :repo_url, "ssh://git@github.com:22/carlosjarrieta/kevin_deploy.git"
 set :branch, "master"
 set :deploy_via, :copy
 set :user, "deploy"
